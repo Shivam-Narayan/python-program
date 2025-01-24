@@ -1,4 +1,5 @@
 #Write a Function to return “True” if the given number is EMIRP NUMBER otherwise return “False”.
+#ex: 13, 17, 31, 37, 71, 73, 79, and 97.
 def isPrime(n):
     if n == 0 or n == 1:
         return False

@@ -14,7 +14,8 @@ if is_automorphic(n):
 else:
     print(f"{n} is not a automorphic number")        
     
-'''def is_automorphic(n: int) -> bool:
+'''
+def is_automorphic(n: int) -> bool:
     square = n * n
     # Convert both the number and its square to strings
     str_n = str(n)
