@@ -8,14 +8,17 @@ def is_automorphic(n: int) ->bool:
         n = n//10
         square = square//10
     return True
+
+
 n = int(input("Enter the number : "))
 if is_automorphic(n):
     print(f"{n} is a automorphic number")
 else:
     print(f"{n} is not a automorphic number")        
     
-'''
-def is_automorphic(n: int) -> bool:
+###################################################################################
+
+'''def is_automorphic(n: int) -> bool:
     square = n * n
     # Convert both the number and its square to strings
     str_n = str(n)
@@ -23,10 +26,9 @@ def is_automorphic(n: int) -> bool:
     # Check if the square ends with the number
     return str_square.endswith(str_n)
 
-# Take input from the user
+# Take input from the user..
 n = int(input("Enter the number: "))
 if is_automorphic(n):
     print(f"{n} is an automorphic number")
 else:
     print(f"{n} is not an automorphic number")'''
-    
