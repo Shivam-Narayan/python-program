@@ -11,7 +11,7 @@ while f1 <= num:
     f2 = f3'''
 
 
-def get_fibonacci(n: int):
+def getfibonacci(n: int):
     f1 = 0
     f2 = 1
     while f1 <= n:
@@ -22,4 +22,4 @@ def get_fibonacci(n: int):
                 
 #Taking input from user
 n = int(input("Enter the number: "))
-get_fibonacci(n)
+getfibonacci(n)

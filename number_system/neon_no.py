@@ -25,7 +25,7 @@ def is_neon(n: int) ->bool:
     # Check if the sum of the digits is equal to the original number
     return sum(int(digit) for digit in str(n * n)) == n
 
-# Prompt the user to enter a number
+# Taking input from user..
 n = int(input("Enter the number: "))
 
 # Check if the entered number is a neon number

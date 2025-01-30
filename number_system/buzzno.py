@@ -14,7 +14,8 @@ else:
     print(f"{n} is not a buzz number")        
     
 
-'''def is_buzz(n: int) -> bool:
+'''
+def is_buzz(n: int) -> bool:
     # A number is a buzz number if it is divisible by 7 or ends with 7
     return n % 7 == 0 or n % 10 == 7
 

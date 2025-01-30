@@ -10,5 +10,5 @@ def decimalToHexadecimal(num):
     return hexaDecimal
 
 # Taking input from the user
-#dec = int(input("Enter decimal number: "))
-#print(f'The hexadecimal format of {dec} is {decimalToHexadecimal(dec)}')
+dec = int(input("Enter decimal number: "))
+print(f'The hexadecimal format of {dec} is {decimalToHexadecimal(dec)}')

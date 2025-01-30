@@ -1,3 +1,6 @@
+#Write a Python program to check whether the number is EVIL or ODIOUS
+#15 -> Convert to Binary -> 1111 -> if even number of 1’s -> Evil Number
+#16 -> Convert to Binary -> 10000 -> if odd number of 1’s -> Odious Number
 def decimalToBinary(num):
     binary = ""
     if num == 0:

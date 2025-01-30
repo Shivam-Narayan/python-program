@@ -1,5 +1,10 @@
 #Write a function to return “True” if the number is HAPPY NUMBER otherwise return “False”.
-#First few happy numbers are 1, 7, 10, 13, 19, 23, 28, 31, 32, 44, 49, 68, 70, 79, 82, 86, 91, 94, 97, 100.
+'''A Happy Number n is defined by the following process. Starting with n, replace it with 
+the sum of the squares of its digits, and repeat the process until n equals 1, or it loops 
+endlessly in a cycle that does not include 1. Those numbers for which this process ends in 1 are 
+Happy Numbers, while those that do not end in 1 are unhappy numbers.
+
+First few happy numbers are 1, 7, 10, 13, 19, 23, 28, 31, 32, 44, 49, 68, 70, 79, 82, 86, 91, 94, 97, 100'''
 def isHappy(num):
     while num > 9:
         sum = 0
