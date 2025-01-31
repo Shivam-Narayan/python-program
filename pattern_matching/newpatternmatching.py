@@ -463,11 +463,20 @@
 
 '---------------------------------------------------------------------------------------------------'
 
-n = int(input("Enter the number: "))
-for i in range(n,0,-1):
-    for j in range(i,n+1):
-        print(chr(j+96),end=" ")
-    print() 
+# n = int(input("Enter the number: "))
+# for i in range(n,0,-1):
+#     for j in range(i,n+1):
+#         print(chr(j+96),end=" ")
+#     print() 
+    
+# e 
+# d e 
+# c d e 
+# b c d e 
+# a b c d e     
+
+'-------------------------------------------------------------------------------------------------------'
+
 '######################################## Down-right-angle traingle #######################################'
 
 # n = int(input("Enter the number : "))
