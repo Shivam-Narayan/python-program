@@ -546,3 +546,56 @@
 # 1   
   
 '--------------------------------------------------------------------------------------------'
+'############################### Left right angle traingle ##################################'
+
+# n = int(input("Enter the number: "))
+# for i in range(1,n+1):
+    
+#     #Space loop
+#     for j in range(0,n-i):
+#         print(" ",end=" ")
+        
+#     #Star loop    
+#     for k in range(1,i+1):
+#         print("*",end=" ")
+#     print()        
+    
+#         * 
+#       * * 
+#     * * * 
+#   * * * * 
+# * * * * *     
+
+'---------------------------------------------------------------------------------------------'
+
+# n = int(input("Enter the number: "))
+# for i in range(1,n+1):
+    
+#     #Space loop
+#     for j in range(0,n-i):
+#         print(" ",end=" ")
+        
+#     #Star loop    
+#     for k in range(1,i+1):
+#         print(k,end=" ")
+#     print() 
+    
+#         1 
+#       1 2 
+#     1 2 3 
+#   1 2 3 4 
+# 1 2 3 4 5 
+
+'----------------------------------------------------------------------------------------------'
+    
+n = int(input("Enter the number: "))
+for i in range(1,n+1):
+    
+    #Space loop
+    for j in range(0,n-i):
+        print(" ",end=" ")
+        
+    #Star loop    
+    for k in range(1,i+1):
+        print(k%2,end=" ")
+    print()     
