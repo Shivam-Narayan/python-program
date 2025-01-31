@@ -588,14 +588,20 @@
 
 '----------------------------------------------------------------------------------------------'
     
-n = int(input("Enter the number: "))
-for i in range(1,n+1):
+# n = int(input("Enter the number: "))
+# for i in range(1,n+1):
     
-    #Space loop
-    for j in range(0,n-i):
-        print(" ",end=" ")
+#     #Space loop
+#     for j in range(0,n-i):
+#         print(" ",end=" ")
         
-    #Star loop    
-    for k in range(1,i+1):
-        print(k%2,end=" ")
-    print()     
+#     #Star loop    
+#     for k in range(1,i+1):
+#         print(k%2,end=" ")
+#     print()     
+    
+#         1 
+#       1 0 
+#     1 0 1 
+#   1 0 1 0 
+# 1 0 1 0 1     
