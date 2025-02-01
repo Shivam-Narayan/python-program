@@ -1037,7 +1037,7 @@
 #   1 2 3 4 3 2 1 
 # 1 2 3 4 5 4 3 2 1    
   
-'---------------------------------------------------------------------------------------------------------'
+'-------------------------------------------------------------------------------------------------------'
 
 # n = int(input("Enter the number: "))
 # for i in range(1,n+1):
@@ -1110,22 +1110,31 @@
 
 '-----------------------------------------------------------------------------------------------'
 
-def print_pattern(n: int):
-    # Start from 'D' which is ASCII 68 (corresponding to row 4)
-    for i in range(n):
-        # Print leading spaces
-        for _ in range(n - i - 1):
-            print(" ", end=" ")
+# def print_pattern(n: int):
+#     # Start from 'D' which is ASCII 68 (corresponding to row 4)
+#     for i in range(n):
+#         # Print leading spaces
+#         for _ in range(n - i - 1):
+#             print(" ", end=" ")
         
-        # Print ascending characters
-        for j in range(i, -1, -1):
-            print(chr(65 + j), end=" ")
+#         # Print ascending characters
+#         for j in range(i, -1, -1):
+#             print(chr(65 + j), end=" ")
         
-        # Print descending characters
-        for j in range(1, i + 1):
-            print(chr(65 + j), end=" ")
+#         # Print descending characters
+#         for j in range(1, i + 1):
+#             print(chr(65 + j), end=" ")
         
-        print()  # Move to the next line
+#         print()  # Move to the next line
 
-# Call the function for 4 rows as in the example
-print_pattern(6)
+# # Call the function for 4 rows as in the example
+# print_pattern(6)
+
+#          A 
+#         B A B 
+#       C B A B C 
+#     D C B A B C D 
+#   E D C B A B C D E 
+# F E D C B A B C D E F
+
+'---------------------------------------------------------------------------------------------------'
