@@ -1130,7 +1130,7 @@
 # # Call the function for 4 rows as in the example
 # print_pattern(6)
 
-#          A 
+#           A 
 #         B A B 
 #       C B A B C 
 #     D C B A B C D 
