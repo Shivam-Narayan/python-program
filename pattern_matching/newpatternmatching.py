@@ -530,23 +530,95 @@
 # 3 4 5 
 # 4 5 
 # 5     
-    
-'-----------------------------------------------------------------------------------------'
+ 
+'--------------------------------------------------------------------------------------------'
+
+# n = int(input("Enter the number: "))
+# for i in range(0, n):
+#    for j in range(n, i, -1):
+#       print(j, end=" ")
+#    print()
+
+# 5 4 3 2 1 
+# 5 4 3 2 
+# 5 4 3 
+# 5 4 
+# 5 
+
+'-------------------------------------------------------------------------------------------------'
 
 # n = int(input("Enter the number: "))
 # for i in range(n,0,-1):
-#     for j in range(i,0,-1):
-#         print(j, end=" ")
-#     print()
-    
+#    for j in range(i,0,-1):
+#       print(j, end=" ")
+#    print()
+   
 # 5 4 3 2 1 
 # 4 3 2 1 
 # 3 2 1 
 # 2 1 
-# 1   
-  
+# 1    
+
+ 
+'-------------------------------------------------------------------------------------------'
+
+# n = int(input("Enter the number: "))
+# for i in range(n,0,-1):
+#    for j in range(1,i+1):
+#       print(j,end=" ")
+#    print()    
+   
+# 1 2 3 4 5 
+# 1 2 3 4 
+# 1 2 3 
+# 1 2 
+# 1    
+
 '--------------------------------------------------------------------------------------------'
-'############################### Left right angle traingle ##################################'
+
+# n = int(input("Enter the number: "))
+# for i in range(0, n):
+#    for j in range(n, i, -1):
+#       print(j, end=" ")
+#    print()
+
+# 5 4 3 2 1 
+# 5 4 3 2 
+# 5 4 3 
+# 5 4 
+# 5 
+
+'-----------------------------------------------------------------------------------------------'
+
+# n = int(input("Enter the number: "))
+# for i in range(1,n+1):
+#    for j in range(i,n+1):
+#       print(j, end=" ")
+#    print()
+   
+# 1 2 3 4 5 
+# 2 3 4 5 
+# 3 4 5 
+# 4 5 
+# 5    
+
+'-------------------------------------------------------------------------------------------------'
+
+# n = int(input("Enter the number: "))
+# for i in range(n,0,-1):
+#    for j in range(i,0,-1):
+#       print(j, end=" ")
+#    print()
+   
+# 5 4 3 2 1 
+# 4 3 2 1 
+# 3 2 1 
+# 2 1 
+# 1    
+
+'--------------------------------------------------------------------------------------------------'
+
+'############################### Right right angle traingle ##################################'
 
 # n = int(input("Enter the number: "))
 # for i in range(1,n+1):
@@ -605,3 +677,252 @@
 #     1 0 1 
 #   1 0 1 0 
 # 1 0 1 0 1     
+
+'----------------------------------------------------------------------------------------------'
+
+# n = int(input("Enter the number: "))
+# for i in range(0,n+1):
+#     for j in range(0,n-i):
+#         print(" ",end=" ")
+#     for k in range(i,0,-1):
+#         print(chr(k+64),end=" ")
+#     print()        
+#         A 
+#       B A 
+#     C B A 
+#   D C B A 
+# E D C B A     
+
+'-----------------------------------------------------------------------------------------------'
+
+# def print_pattern(n):
+#     for i in range(n):
+#         for j in range(n-i-1):
+#             print(" ", end=" ")
+#         for k in range(n-i, n+1):
+#             print(chr(64+k), end=" ")
+#         print()
+
+# n = int(input("Enter the number : "))
+# print_pattern(n)
+
+#         E 
+#       D E 
+#     C D E 
+#   B C D E 
+# A B C D E     
+
+'-----------------------------------------------------------------------------------------------'
+
+# def print_pattern(n):
+#     for i in range(n):
+#         for j in range(n-i-1):
+#             print(" ", end=" ")
+#         for k in range(i+1):
+#             print(chr(65+k), end=" ")
+#         print()
+
+# n = int(input("Enter the number: "))
+# print_pattern(n)
+
+#         A 
+#       A B 
+#     A B C 
+#   A B C D 
+# A B C D E 
+
+'-----------------------------------------------------------------------------------------------'
+
+# def print_pattern(n):
+#     for i in range(n):
+#         for j in range(n-i-1):
+#             print(" ", end=" ")
+#         for k in range(i+1):
+#             print(n-k, end=" ")
+#         print()
+
+# n = int(input("Enter the number of rows: "))
+# print_pattern(n)
+
+#         5 
+#       5 4 
+#     5 4 3 
+#   5 4 3 2 
+# 5 4 3 2 1 
+
+'##############################################################################################'
+ 
+# n = int(input("Enter the number: "))
+# for i in range(n,0,-1):
+#    for j in range(1,n-i+1):
+#       print(' ',end=" ")
+#    for k in range(1,i+1):
+#       print("*",end=" ")
+#    print()          
+             
+# * * * * * 
+#   * * * * 
+#     * * * 
+#       * * 
+#         * 
+
+'-----------------------------------------------------------------------------------------------'
+
+# n = int(input("Enter the number: "))
+# for i in range(n, 0, -1):
+#    for j in range(n, i, -1):
+#       print(" ", end=" ")
+#    for k in range(1, i+1):
+#       print(k, end=" ")
+#    print()
+ 
+# 1 2 3 4 5 
+#   1 2 3 4 
+#     1 2 3 
+#       1 2 
+#         1      
+
+'-------------------------------------------------------------------------------------------------'
+
+# n = int(input("Enter the number: "))
+# for i in range(n, 0, -1):
+#     for j in range(n, i, -1):
+#         print(" ", end=" ")
+#     for k in range(n-i+1, n+1):
+#         print(k, end=" ")
+#     print()
+     
+# 1 2 3 4 5 
+#   2 3 4 5 
+#     3 4 5 
+#       4 5 
+#         5      
+
+'--------------------------------------------------------------------------------------------------'
+
+# n = int(input("Enter the number: "))
+# for i in range(0, n+1):
+#     for j in range(0, i+1):
+#         print(" ", end=" ")
+#     for k in range(n,i,-1):
+#         print(k, end=" ")
+#     print()
+ 
+#   4 3 2 1 
+#     4 3 2 
+#       4 3 
+#         4    
+
+'--------------------------------------------------------------------------------------------------'
+
+# n = int(input("Enter the number: "))
+# for i in range(n):
+#     for j in range(i):
+#         print(" ", end=" ")
+#     for k in range(n-i, 0, -1):
+#         print(k, end=" ")
+#     print()
+
+# 5 4 3 2 1 
+#   4 3 2 1 
+#     3 2 1 
+#       2 1 
+#         1 
+
+'--------------------------------------------------------------------------------------------------'
+
+# n = int(input("Enter the number: "))
+# for i in range(n):
+#     for j in range(i):
+#         print(" ", end=" ")
+#     for k in range(n-i, 0, -1):
+#         print(chr(k+96), end=" ")
+#     print()
+
+# e d c b a 
+#   d c b a 
+#     c b a 
+#       b a 
+#         a 
+
+'---------------------------------------------------------------------------------------------------------'
+
+# n = int(input("Enter the number: "))
+# for i in range(n):
+#     for j in range(i):
+#         print(" ", end=" ")
+#     for k in range(n-i):
+#         print((i+k) % 2, end=" ")
+#     print()
+
+# 0 1 0 1 0 
+#   1 0 1 0 
+#     0 1 0 
+#       1 0 
+#         0 
+'----------------------------------------------------------------------------------------------------------'
+        
+# n = int(input("Enter the number: "))
+# for i in range(n):
+#     for j in range(i):
+#         print(" ", end=" ")
+#     for k in range(n-i):
+#         print((k + (i % 2)) % 2, end=" ")
+#     print()
+
+# 0 1 0 1 0 
+#   1 0 1 0 
+#     0 1 0 
+#       1 0 
+#         0 
+
+'------------------------------------------------------------------------------------------------------------'
+
+# n = int(input("Enter the number: "))
+# for i in range(n, 0, -1):
+#     for j in range(n, i, -1):
+#         print(" ", end=" ")
+#     for k in range(1, i+1):
+#         print(chr(k+96), end=" ")
+#     print()
+# a b c d e 
+#   a b c d 
+#     a b c 
+#       a b 
+#         a
+
+'------------------------------------------------------------------------------------------------------------'
+
+# def print_pattern(n):
+#     C = 65
+#     for i in range(n):
+#         for j in range(i):
+#             print(" ", end=" ")
+#         for k in range(n-i):
+#             print(chr(C), end=" ")
+#             C += 1
+#             if C > 90:  # Reset to 'A' after 'Z'
+#                 C = 65
+#         print()
+
+# n = int(input("Enter the number of rows: "))
+# print_pattern(n)
+
+# A B C D E F G 
+#   H I J K L M 
+#     N O P Q R 
+#       S T U V 
+#         W X Y 
+#           Z A 
+#             B 
+
+'----------------------------------------------------------------------------------------------------------'
+'####################################### Pyramid pattern program ##########################################'
+
+n = int(input("Enter the number: "))
+for i in range(1,n+1):
+   for j in range(1,n-i+1):
+      print(" ",end=" ")
+   for k in range(1,2*i):
+      print("*",end=" ")
+   print()      
