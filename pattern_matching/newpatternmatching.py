@@ -1355,7 +1355,9 @@
 
 #    # Move to the next line after each row
 #    print()
-'-----------------------------------------------------------------------------'
+
+'---------------------------------------------------------------------------------------'
+
 # n = int(input("Enter the number: "))
 # for i in range(1,n+1):
 #    for j in range(1,n-i+1):
@@ -1374,13 +1376,23 @@
 
 '---------------------------------------------------------------------------------------------'
 
+# # Accepting input from the user
 # n = int(input("Enter the number: "))
-# for i in range(n,0,-1):
-#    for j in range(1,n-i+1):
-#       print(" ",end=" ")
-#    for k in range(1,2*i):
-#       print('*',end=" ")
-#    print()      
+
+# # Outer loop for number of rows, starting from n and decreasing to 1
+# for i in range(n, 0, -1):
+   
+#    # Inner loop to print leading spaces
+#    for j in range(1, n-i+1):
+#       print(" ", end=" ")
+
+#    # Inner loop to print asterisks in a pyramid pattern
+#    for k in range(1, 2*i):
+#       print('*', end=" ")
+
+#    # Move to the next line after each row
+#    print()
+      
 
 # * * * * * * * * * 
 #   * * * * * * * 
@@ -1388,4 +1400,58 @@
 #       * * * 
 #         *     
 
-'---------------------------------------------------------------------------------------------------'  
+'---------------------------------------------------------------------------------------------------'
+  
+# # Accepting input from the user
+# n = int(input("Enter the number: "))
+
+# # Outer loop for number of rows
+# for i in range(n, 0, -1):
+    
+#     # Inner loop to print leading spaces
+#     for j in range(n, i, -1):
+#         print(" ", end=" ")
+    
+#     # Inner loop to print numbers
+#     for j in range(2 * i - 1):
+#         print(i, end=" ")
+    
+#     # Move to the next line after each row
+#     print()
+
+# 5 5 5 5 5 5 5 5 5 
+#   4 4 4 4 4 4 4 
+#     3 3 3 3 3 
+#       2 2 2 
+#         1 
+
+'-------------------------------------------------------------------------------------------------'
+
+# # Accepting input from the user
+# n = int(input("Enter the number: "))
+
+# # Outer loop for number of rows
+# for i in range(n):
+    
+#     # Inner loop to print leading spaces
+#     for j in range(i):
+#         print(" ", end=" ")
+    
+#     # Inner loop to print decreasing numbers
+#     for j in range(n, i, -1):
+#         print(j - i, end=" ")
+    
+#     # Inner loop to print increasing numbers
+#     for j in range(i + 2, n + 1):
+#         print(j, end=" ")
+    
+#     # Move to the next line after each row
+#     print()
+
+# 5 4 3 2 1 2 3 4 5 
+#   4 3 2 1 3 4 5 
+#     3 2 1 4 5 
+#       2 1 5 
+#         1 
+
+'------------------------------------------------------------------------------------------------'
