@@ -1039,18 +1039,33 @@
   
 '-------------------------------------------------------------------------------------------------------'
 
+# # Accepting input from the user
 # n = int(input("Enter the number: "))
-# for i in range(1,n+1):
-#    for j in range(1,n-i+1):
-#       print(" ",end=" ")
+
+# # Outer loop for number of rows
+# for i in range(1, n+1):
+   
+#    # Inner loop to print leading spaces
+#    for j in range(1, n-i+1):
+#       print(" ", end=" ")
+
+#    # Set the initial value of x to the current row number
 #    x = i
-#    for k in range(1,2*i):
-#       print(x,end=" ")
-#       if k<i:
-#          x = x-1
+
+#    # Inner loop to print increasing and then decreasing numbers
+#    for k in range(1, 2*i):
+#       print(x, end=" ")
+      
+#       # If we are in the first half of the row, decrement x
+#       if k < i:
+#          x = x - 1
+#       # If we are in the second half of the row, increment x
 #       else:
-#          x = x+1
-#    print()      
+#          x = x + 1
+
+#    # Move to the next line after each row
+#    print()
+     
    
 #         1 
 #       2 1 2 
@@ -1081,26 +1096,32 @@
 
 '-------------------------------------------------------------------------------------------------'
 
-# def print_pattern(n):
-#     for i in range(n):
-#         # Print leading spaces
-#         for j in range(n - i - 1):
-#             print(" ", end=" ")
-        
-#         # Print increasing characters
-#         for j in range(i + 1):
-#             print(chr(65 + j), end=" ")
-        
-#         # Print decreasing characters
-#         for j in range(i, 0, -1):
-#             print(chr(64 + j), end=" ")
-        
-#         # Move to the next line
-#         print()
+# # Accepting input from the user
+# n = int(input("Enter the number: "))
 
-# # Define the number of rows
-# rows = int(input("Enter the number: "))
-# print_pattern(rows)
+# # Outer loop for number of rows
+# for i in range(1, n+1):
+   
+#    # Inner loop to print leading spaces
+#    for j in range(1, n-i+1):
+#       print(" ", end=" ")
+
+#    # Setting the initial ASCII value for 'A'
+#    x = 65
+
+#    # Inner loop to print increasing and then decreasing characters
+#    for k in range(1, 2*i):
+#       print(chr(x), end=" ")
+      
+#       # If we are in the first half of the row, increment x
+#       if k < i:
+#          x = x + 1
+#       # If we are in the second half of the row, decrement x
+#       else:
+#          x = x - 1
+
+#    # Move to the next line after each row
+#    print()
 
 #         A 
 #       A B A 
@@ -1127,7 +1148,7 @@
         
 #         print()  # Move to the next line
 
-# # Call the function for 4 rows as in the example
+# Call the function for 4 rows as in the example
 # print_pattern(6)
 
 #           A 
@@ -1138,3 +1159,233 @@
 # F E D C B A B C D E F
 
 '---------------------------------------------------------------------------------------------------'
+# # Accepting input from the user
+# n = int(input("Enter the number: "))
+
+# # Outer loop for number of rows
+# for i in range(1, n+1):
+   
+#    # Inner loop to print leading spaces
+#    for j in range(1, n-i+1):
+#       print(" ", end=" ")
+
+#    # Setting the initial ASCII value for 'A'
+#    x = n-i+65
+
+#    # Inner loop to print increasing and then decreasing characters
+#    for k in range(1, 2*i):
+#       print(chr(x), end=" ")
+      
+#       # If we are in the first half of the row, increment x
+#       if k < i:
+#          x = x + 1
+#       # If we are in the second half of the row, decrement x
+#       else:
+#          x = x - 1
+
+#    # Move to the next line after each row
+#    print()
+
+#         E 
+#       D E D 
+#     C D E D C 
+#   B C D E D C B 
+# A B C D E D C B A
+
+'-------------------------------------------------------------------------------------------------'
+
+# # Accepting input from the user
+# n = int(input("Enter the number: "))
+
+# # Outer loop for number of rows
+# for i in range(1, n+1):
+   
+#    # Inner loop to print leading spaces
+#    for j in range(1, n-i+1):
+#       print(" ", end=" ")
+
+#    # Setting the initial ASCII value for 'A'
+#    x = n+64
+
+#    # Inner loop to print increasing and then decreasing characters
+#    for k in range(1, 2*i):
+#       print(chr(x), end=" ")
+      
+#       # If we are in the first half of the row, increment x
+#       if k < i:
+#          x = x - 1
+#       # If we are in the second half of the row, decrement x
+#       else:
+#          x = x + 1
+
+#    # Move to the next line after each row
+#    print()
+   
+#         E 
+#       E D E 
+#     E D C D E 
+#   E D C B C D E 
+# E D C B A B C D E    
+
+'-----------------------------------------------------------------------------------------------------'
+
+# # Accepting input from the user
+# n = int(input("Enter the number: "))
+
+# # Outer loop for number of rows
+# for i in range(1, n+1):
+   
+#    # Inner loop to print leading spaces
+#    for j in range(1, n-i+1):
+#       print(" ", end=" ")
+
+#    # Setting the initial ASCII value for 'A'
+#    x = 1
+
+#    # Inner loop to print increasing and then decreasing characters
+#    for k in range(1, 2*i):
+      
+      
+#       # If we are in the first half of the row, increment x
+#       if k % 2 == 0:
+#          print("*",end=" ")
+#       # If we are in the second half of the row, decrement x
+#       else:
+#          print(x,end=" ")
+#          x = x + 1
+
+#    # Move to the next line after each row
+#    print()
+   
+#         1 
+#       1 * 2 
+#     1 * 2 * 3 
+#   1 * 2 * 3 * 4 
+# 1 * 2 * 3 * 4 * 5    
+'-------------------------------------------------------------------------------------------'
+
+# # Accepting input from the user
+# n = int(input("Enter the number: "))
+
+# # Outer loop for number of rows
+# for i in range(1, n+1):
+   
+#    # Inner loop to print leading spaces
+#    for j in range(1, n-i+1):
+#       print(" ", end=" ")
+
+#    # Inner loop to print numbers and asterisks
+#    for j in range(1, i+1):
+#       print(j, end=" ")
+
+#       # Print an asterisk if it's not the last number in the row
+#       if i != j:
+#          print("*", end=" ")
+   
+#    # Move to the next line after each row
+#    print()
+
+#         1 
+#       1 * 2 
+#     1 * 2 * 3 
+#   1 * 2 * 3 * 4 
+# 1 * 2 * 3 * 4 * 5
+'----------------------------------------------------------------------------------------------'         
+
+# # Accepting input from the user
+# n = int(input("Enter the number: "))
+
+# # Outer loop for number of rows
+# for i in range(1, n+1):
+   
+#    # Inner loop to print leading spaces
+#    for j in range(1, n-i+1):
+#       print(" ", end=" ")
+
+#    # Setting the initial ASCII value for 'A'
+#    x = n+64
+
+#    # Inner loop to print increasing and then decreasing characters
+#    for k in range(1, 2*i):
+#       print(chr(x), end=" ")
+      
+#       # If we are in the first half of the row, increment x
+#       if k < i:
+#          x = x - 1
+#       # If we are in the second half of the row, decrement x
+#       else:
+#          x = x + 1
+
+#    # Move to the next line after each row
+#    print()
+   
+#         E 
+#       E D E 
+#     E D C D E 
+#   E D C B C D E 
+# E D C B A B C D E    
+
+'-----------------------------------------------------------------------------------------------------'
+
+# # Accepting input from the user
+# n = int(input("Enter the number: "))
+
+# # Outer loop for number of rows
+# for i in range(1, n+1):
+   
+#    # Inner loop to print leading spaces
+#    for j in range(1, n-i+1):
+#       print("-", end=" ")
+
+#    # Start with 1
+#    x = 1
+
+#    # Inner loop to print Pascal's Triangle numbers and hyphens
+#    for k in range(0, 2*i-1):
+      
+#       # If k is even, print Pascal's Triangle number
+#       if k % 2 == 0:
+#          print(x, end=" ")
+#          # Update x using Pascal's Triangle formula
+#          if k < i-1:
+#             x = x * (i - 1 - k) // (k + 1)
+#       # If k is odd, print a hyphen
+#       else:
+#          print('-', end=" ")
+
+#    # Move to the next line after each row
+#    print()
+'-----------------------------------------------------------------------------'
+# n = int(input("Enter the number: "))
+# for i in range(1,n+1):
+#    for j in range(1,n-i+1):
+#       print("-",end=" ")
+#    x = 1
+#    for k in range(1,i+1):
+#       print(x," ",end=" ")
+#       x = (x*(i-k))//k
+#    print()      
+   
+# - - - - 1   
+# - - - 1   1   
+# - - 1   2   1   
+# - 1   3   3   1   
+# 1   4   6   4   1   
+
+'---------------------------------------------------------------------------------------------'
+
+# n = int(input("Enter the number: "))
+# for i in range(n,0,-1):
+#    for j in range(1,n-i+1):
+#       print(" ",end=" ")
+#    for k in range(1,2*i):
+#       print('*',end=" ")
+#    print()      
+
+# * * * * * * * * * 
+#   * * * * * * * 
+#     * * * * * 
+#       * * * 
+#         *     
+
+'---------------------------------------------------------------------------------------------------'  
