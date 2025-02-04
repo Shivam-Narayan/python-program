@@ -1375,6 +1375,7 @@
 # 1   4   6   4   1   
 
 '---------------------------------------------------------------------------------------------'
+'############################## Down Pyramid pattern program #################################'
 
 # # Accepting input from the user
 # n = int(input("Enter the number: "))
@@ -1510,4 +1511,415 @@
 #       D E D 
 #         E 
 
-'-------------------------------------------------------------------------------------------------'
+'--------------------------------------------------------------------------------------------'
+'######################################## Dimond pattern ####################################'
+
+# # Get input from the user
+# n = int(input("Enter the number: "))
+
+# # Initialize spaces and stars count
+# sp = n // 2
+# st = 1
+
+# # Loop to iterate through each row
+# for i in range(1, n + 1):
+#     # Loop to print spaces
+#     for j in range(1, sp + 1):
+#         print(" ", end=" ")
+
+#     # Loop to print stars
+#     for k in range(1, st + 1):
+#         print("*", end=" ")
+
+#     # Condition to check if we are in the first half of the pattern
+#     if i <= n // 2:
+#         sp -= 1  # Decrease space count
+#         st += 2  # Increase star count
+#     else:
+#         sp += 1  # Increase space count
+#         st -= 2  # Decrease star count
+
+#     # Move to the next line after each row is printed
+#     print()
+        
+   
+#     * 
+#   * * * 
+# * * * * * 
+#   * * * 
+#     *    
+
+'----------------------------------------------------------------------------------------------'
+# # Get input from the user
+# n = int(input("Enter the number: "))
+
+# # Initialize spaces and stars count
+# sp = n // 2
+# st = 1
+
+# # Loop to iterate through each row
+# for i in range(1, n + 1):
+#     # Loop to print spaces
+#     for j in range(1, sp + 1):
+#         print(" ", end=" ")
+
+#     # Loop to print stars
+#     for k in range(1, st + 1):
+#         print(i, end=" ")
+
+#     # Condition to check if we are in the first half of the pattern
+#     if i <= n // 2:
+#         sp -= 1  # Decrease space count
+#         st += 2  # Increase star count
+#     else:
+#         sp += 1  # Increase space count
+#         st -= 2  # Decrease star count
+
+#     # Move to the next line after each row is printed
+#     print()
+
+#     1 
+#   2 2 2 
+# 3 3 3 3 3 
+#   4 4 4 
+#     5 
+
+'---------------------------------------------------------------------------------'
+
+# # Get input from the user
+# n = int(input("Enter the number: "))
+
+# # Initialize spaces and stars count
+# sp = n // 2
+# st = 1
+
+# # Loop to iterate through each row
+# for i in range(1, n + 1):
+#     # Loop to print spaces
+#     for j in range(1, sp + 1):
+#         print(" ", end=" ")
+
+#     # Loop to print stars
+#     for k in range(1, st + 1):
+#         print(k, end=" ")
+
+#     # Condition to check if we are in the first half of the pattern
+#     if i <= n // 2:
+#         sp -= 1  # Decrease space count
+#         st += 2  # Increase star count
+#     else:
+#         sp += 1  # Increase space count
+#         st -= 2  # Decrease star count
+
+#     # Move to the next line after each row is printed
+#     print()
+    
+#     1 
+#   1 2 3 
+# 1 2 3 4 5 
+#   1 2 3 
+#     1      
+
+'------------------------------------------------------------------------------------'
+  
+# # Get input from the user
+# n = int(input("Enter the number: "))
+
+# # Initialize spaces and stars count
+# sp = n // 2
+# st = 1
+
+# # Loop to iterate through each row
+# for i in range(1, n + 1):
+#     # Loop to print spaces
+#     for j in range(1, sp + 1):
+#         print(" ", end=" ")
+
+#     # Loop to print stars
+#     for k in range(1, st + 1):
+#         print(i%2, end=" ")
+
+#     # Condition to check if we are in the first half of the pattern
+#     if i <= n // 2:
+#         sp -= 1  # Decrease space count
+#         st += 2  # Increase star count
+#     else:
+#         sp += 1  # Increase space count
+#         st -= 2  # Decrease star count
+
+#     # Move to the next line after each row is printed
+#     print()  
+    
+#     1 
+#   0 0 0 
+# 1 1 1 1 1 
+#   0 0 0 
+#     1     
+
+'---------------------------------------------------------------------------------'
+
+# # Get input from the user
+# n = int(input("Enter the number: "))
+
+# # Initialize spaces and stars count
+# sp = n // 2
+# st = 1
+
+# # Loop to iterate through each row
+# for i in range(1, n + 1):
+#     # Loop to print spaces
+#     for j in range(1, sp + 1):
+#         print(" ", end=" ")
+
+#     # Loop to print stars
+#     for k in range(1, st + 1):
+#         print(k%2, end=" ")
+
+#     # Condition to check if we are in the first half of the pattern
+#     if i <= n // 2:
+#         sp -= 1  # Decrease space count
+#         st += 2  # Increase star count
+#     else:
+#         sp += 1  # Increase space count
+#         st -= 2  # Decrease star count
+
+#     # Move to the next line after each row is printed
+#     print() 
+    
+#     1 
+#   1 0 1 
+# 1 0 1 0 1 
+#   1 0 1 
+#     1     
+
+'-------------------------------------------------------------------------------------------'
+
+# # Get input from the user
+# n = int(input("Enter the number: "))
+
+# # Initialize spaces and stars count
+# sp = n // 2
+# st = 1
+
+# x = 1
+# # Loop to iterate through each row
+# for i in range(1, n + 1):
+#     # Loop to print spaces
+#     for j in range(1, sp + 1):
+#         print(" ", end=" ")
+
+#     # Loop to print stars
+#     for k in range(1, st + 1):
+#         print(x%2, end=" ")
+#         x = x + 1
+
+#     # Condition to check if we are in the first half of the pattern
+#     if i <= n // 2:
+#         sp -= 1  # Decrease space count
+#         st += 2  # Increase star count
+#     else:
+#         sp += 1  # Increase space count
+#         st -= 2  # Decrease star count
+
+#     # Move to the next line after each row is printed
+#     print() 
+
+#     1 
+#   0 1 0 
+# 1 0 1 0 1 
+#   0 1 0 
+#     1 
+
+'-------------------------------------------------------------------------------------------'
+
+# # Get input from the user
+# n = int(input("Enter the number: "))
+
+# # Initialize spaces and stars count
+# sp = n // 2
+# st = 1
+
+# x = 1
+# # Loop to iterate through each row
+# for i in range(1, n + 1):
+#     # Loop to print spaces
+#     for j in range(1, sp + 1):
+#         print(" ", end=" ")
+
+#     # Loop to print stars
+#     for k in range(1, st + 1):
+#         print(x%2, end=" ")
+# #         x = x + 1
+
+#    # Condition to check if we are in the first half of the pattern
+#     if i <= n // 2:
+#          x = x+1   
+#          sp -= 1  # Decrease space count
+#          st += 2  # Increase star count
+#     else:
+#          x = x-1
+#          sp += 1  # Increase space count
+#          st -= 2  # Decrease star count
+
+#      # Move to the next line after each row is printed
+#     print() 
+    
+#     1 
+#   0 0 0 
+# 1 1 1 1 1 
+#   0 0 0 
+#     1     
+
+'--------------------------------------------------------------------'
+
+# # Get input from the user
+# n = int(input("Enter the number: "))
+
+# # Initialize spaces and stars count
+# sp = n // 2
+# st = 1
+
+# x = n
+# # Loop to iterate through each row
+# for i in range(1, n + 1):
+#     # Loop to print spaces
+#     for j in range(1, sp + 1):
+#         print(" ", end=" ")
+
+#     # Loop to print stars
+#     for k in range(1, st + 1):
+#         print(x, end=" ")
+#     x = x - 1
+
+#     # Condition to check if we are in the first half of the pattern
+#     if i <= n // 2:
+#         sp -= 1  # Decrease space count
+#         st += 2  # Increase star count
+#     else:
+#         sp += 1  # Increase space count
+#         st -= 2  # Decrease star count
+  
+#     # Move to the next line after each row is printed
+#     print() 
+    
+#     5 
+#   4 4 4 
+# 3 3 3 3 3 
+#   2 2 2 
+#     1     
+
+'-------------------------------------------------------------------------------------------'
+
+# # Get input from the user
+# n = int(input("Enter the number: "))
+
+# # Initialize spaces and stars count
+# sp = n // 2
+# st = 1
+
+# # Loop to iterate through each row
+# for i in range(1, n + 1):
+#     # Loop to print spaces
+#     for j in range(1, sp + 1):
+#         print(" ", end=" ")
+#     x = 1
+#     # Loop to print stars
+#     for k in range(1, st + 1):
+#         print(x, end=" ")
+#         if k <= st//2:
+#            x = x+1
+#         else:
+#            x = x-1   
+
+#     # Condition to check if we are in the first half of the pattern
+#     if i <= n // 2:
+#         sp -= 1  # Decrease space count
+#         st += 2  # Increase star count
+#     else:
+#         sp += 1  # Increase space count
+#         st -= 2  # Decrease star count
+  
+#     # Move to the next line after each row is printed
+#     print() 
+    
+#     1 
+#   1 2 1 
+# 1 2 3 2 1 
+#   1 2 1 
+#     1     
+
+'----------------------------------------------------------------------------'
+
+# # Get input from the user
+# n = int(input("Enter the number: "))
+
+# # Loop to create the first half of the pattern
+# for i in range(1, n + 1):
+#     # Print leading spaces to align numbers properly
+#     print(" " * (2 * (n - i)), end="")
+    
+#     # Print decreasing numbers from i to 1
+#     for j in range(i, 0, -1):
+#         print(j, end=" ")
+    
+#     # Print increasing numbers from 2 to i
+#     for j in range(2, i + 1):
+#         print(j, end=" ")
+    
+#     # Move to the next line
+#     print()
+
+# # Loop to create the second half of the pattern
+# for i in range(n - 1, 0, -1):
+#     # Print leading spaces to align numbers properly
+#     print(" " * (2 * (n - i)), end="")
+    
+#     # Print decreasing numbers from i to 1
+#     for j in range(i, 0, -1):
+#         print(j, end=" ")
+    
+#     # Print increasing numbers from 2 to i
+#     for j in range(2, i + 1):
+#         print(j, end=" ")
+    
+#     # Move to the next line
+#     print()
+
+#         1 
+#       2 1 2 
+#     3 2 1 2 3 
+#   4 3 2 1 2 3 4 
+# 5 4 3 2 1 2 3 4 5 
+#   4 3 2 1 2 3 4 
+#     3 2 1 2 3 
+#       2 1 2 
+#         1 
+
+'-------------------------------------------------------------------------------'
+
+n = 5
+
+# Upper part of the pattern
+for i in range(1, n + 1):
+    # Print spaces
+    print(" " * (n - i), end="")
+    # Print increasing numbers
+    for j in range(i, n + 1):
+        print(j, end=" ")
+    # Print decreasing numbers
+    for j in range(n - 1, i - 1, -1):
+        print(j, end=" ")
+    print()
+
+# Lower part of the pattern
+for i in range(n - 1, 0, -1):
+    # Print spaces
+    print(" " * (n - i), end="")
+    # Print increasing numbers
+    for j in range(i, n + 1):
+        print(j, end=" ")
+    # Print decreasing numbers
+    for j in range(n - 1, i - 1, -1):
+        print(j, end=" ")
+    print()
+
