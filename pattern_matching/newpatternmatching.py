@@ -1400,7 +1400,7 @@
 #       * * * 
 #         *     
 
-'---------------------------------------------------------------------------------------------------'
+'-----------------------------------------------------------------------------------------------'
   
 # # Accepting input from the user
 # n = int(input("Enter the number: "))
@@ -1425,7 +1425,7 @@
 #       2 2 2 
 #         1 
 
-'-------------------------------------------------------------------------------------------------'
+'----------------------------------------------------------------------------------------------'
 
 # # Accepting input from the user
 # n = int(input("Enter the number: "))
@@ -1454,4 +1454,60 @@
 #       2 1 5 
 #         1 
 
-'------------------------------------------------------------------------------------------------'
+'----------------------------------------------------------------------------------------------'
+
+# n = int(input("Enter the number: "))  # Read input from the user
+
+# for i in range(n, 0, -1):  # Iterate from n to 1
+#     # Print spaces before numbers
+#     for j in range(n - i):  
+#         print(" ", end=" ")  
+    
+#     x = i  # Initialize x for the row
+#     # Print numbers in the pyramid pattern
+#     for k in range(1, 2 * i):  
+#         print(x, end=" ")
+#         # Decrease or increase value of x for left and right halves
+#         if k < i:
+#             x -= 1
+#         else:
+#             x += 1
+
+#     print()  # Move to the next row
+
+# 5 4 3 2 1 2 3 4 5 
+#   4 3 2 1 2 3 4 
+#     3 2 1 2 3 
+#       2 1 2 
+#         1 
+
+'--------------------------------------------------------------------------------------------------'
+
+# n = int(input("Enter the number: "))  # Read input from the user
+
+# for i in range(n, 0, -1):  # Iterate from n to 1
+#     # Print spaces before numbers
+#     for j in range(1, n - i + 1):  
+#         print(" ", end=" ")  
+    
+#     x = n - i + 65  # Initialize x as an ASCII character value starting from 'A'
+
+#     # Print characters in the pyramid pattern
+#     for k in range(1, 2 * i):  
+#         print(chr(x), end=" ")
+        
+#         # Update the character value based on position
+#         if k < i:
+#             x += 1
+#         else:
+#             x -= 1
+
+#     print()  # Move to the next row
+
+# A B C D E D C B A 
+#   B C D E D C B 
+#     C D E D C 
+#       D E D 
+#         E 
+
+'-------------------------------------------------------------------------------------------------'
