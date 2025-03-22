@@ -17,7 +17,10 @@ Output: No
 
 Input: 1634
 Output: Yes
-1*1*1*1 + 6*6*6*6 + 3*3*3*3 + 4*4*4*4 = 1634'''
+1*1*1*1 + 6*6*6*6 + 3*3*3*3 + 4*4*4*4 = 1634
+
+'''
+
 def getCount(num):
     num = str(num)
     count = len(num)
@@ -40,3 +43,14 @@ print("Armstrong numbers between 100 and 1000 are:")
 for i in range(100, 1000):
     if isArmStrong(i):
         print(i)
+
+# def is_armstrong(num):
+#     digits = list(map(int, str(num)))  # Convert number to list of digits
+#     count = len(digits)
+#     return sum(map(lambda x: x ** count, digits)) == num
+
+# # Find Armstrong numbers between 100 and 1000
+# print("Armstrong numbers between 100 and 1000:")
+# for i in range(100, 1000):
+#     if is_armstrong(i):
+#         print(i)

@@ -9,4 +9,4 @@ elif choice == 3:
           print("Thank you!!")
           exit() #Terminate the program
 else:
-            print("Invalid choice")
+     print("Invalid choice")
