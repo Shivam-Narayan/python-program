@@ -5,7 +5,7 @@ Welcome to the **Python Program Practice** repository! This repository contains 
 ## Getting Started
 1. **Clone the Repository:**
 ```bash
-git clone https://github.com/your-username/python-program-practice.git
+git clone https://github.com/Shivam-Narayan/python-program.git
 cd python-program-practice
 ```
 2. **Run Programs:**
